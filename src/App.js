@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import ParticlesBackground from "./component/ParticleBackground";
+import Clock from "./Clock";
+import { TemperatureInCelcius, Weather } from "./Clock";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <ParticlesBackground /> */}
+      <Clock />
+      <TemperatureInCelcius />
+      <Weather />
     </div>
   );
-}
+};
 
 export default App;

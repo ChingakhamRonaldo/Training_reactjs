@@ -1,0 +1,44 @@
+li a:hover {
+  background-color: #111;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50%;
+  padding: 10px;
+  background: lightgrey;
+}
+
+.main-nav a {
+  color: #34495e;
+  font-size: 0.99em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav a {
+  color: #34495e;
+  font-size: 0.99em;
+}
+
+.main-nav a {
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header,
+.main-nav {
+  display: flex;
+}
