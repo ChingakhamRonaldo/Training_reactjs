@@ -1,0 +1,10 @@
+.square {
+  margin: 20px;
+}
+
+.dis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+}
